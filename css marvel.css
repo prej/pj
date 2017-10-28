@@ -1,0 +1,99 @@
+h1
+{
+	
+	text-align: center;
+	text-shadow: 2px 2px 5px #0c0c0c,
+	             0px 4px 1px rgba(0,0,0,0.5),
+                 4px 4px 5px rgba(0,0,0,0.7);
+	background-color: #770f1c;
+	font-weight: bold;
+	border: 2px solid black;
+	padding: 12px 12px 10px 10px;
+	font-size: 4em;
+	margin-left:150px;
+	margin-right:150px
+}
+body
+{
+	background: linear-gradient(black,#6b0e19);
+	font-family:cursive;
+	color:#f7ebea;
+
+}
+ul
+{
+	color: #f7ebea;
+	/*background-color: black;*/
+	line-height: 2em;
+	border-left: 15px solid #770f1c;
+	padding-left: 3px 3px 3px 7px;
+	font-family: cursive;
+	/*padding-bottom:3px;*/
+	font-size:1em;
+}
+
+table
+{
+	border:3px solid black;
+	border-collapse: collapse;
+	
+	font-family:cursive;
+	padding:10%;
+	width:90%;
+	color:#f7ebea;
+	text-align:center;
+}
+th,td
+{
+	padding:10px;
+}
+caption 
+{
+  padding: 20px;
+  font-style: italic;
+  margin:150px;
+  color: #f7ebea;
+  text-align: center;
+  letter-spacing: 1px;
+	text-decoration:underline;
+}
+tbody
+{
+	font-size:1em;
+}
+
+tbody tr:nth-child(odd) 
+{
+  background-color: #6b0e19;
+}
+
+tbody tr:nth-child(even) 
+{
+  background-color: #0c0c0c;
+}
+thead 
+{
+  background-image: url(https://i.pinimg.com/736x/5a/e7/23/5ae7231647457fbd0dcb497998f1e9fc--baby-marvel-marvel-heroes.jpg);
+  font-size:2em;
+  color:black;
+  text-shadow:2px 2px 5px #0c0c0c;
+}
+img
+{
+	float:right;
+	height:40%;
+	width:45%;
+}
+h2
+{
+	text-decoration:underline;
+	 padding: 20px;
+  font-style: italic;
+ 
+  color: #f7ebea;
+}
+}
+footer
+{
+text-align:right;	
+}

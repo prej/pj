@@ -1,0 +1,17 @@
+h1
+{
+	text-shadow:5px 5px 9px black;
+	text-align:center;
+    text-decoration:underline;
+}
+li
+{  margin-bottom:1em;
+   border:black solid;
+   	
+}
+body
+{   color:white;
+	font-family:cursive;
+	background:linear-gradient(#ad8908,black);
+	line-height:3em;
+}

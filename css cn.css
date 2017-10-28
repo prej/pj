@@ -1,0 +1,23 @@
+.heading
+{
+	background:linear-gradient(black,grey);
+	text-align:center;
+	font-family:cursive;
+	color:#f28165;
+	margin-left:8em;
+	margin-right:11em;
+	line-height:2;
+}
+p
+{
+	font-family:cursive;
+	color:#f28165;
+}
+
+body 
+{
+	background-color: black;
+    background-image: url('http://vignette4.wikia.nocookie.net/cartoonnetwork/images/6/62/CN_Logo_%28NBA%29.png/revision/latest?cb=20110501082535');
+    background-repeat: no-repeat;
+    background-position: right top;
+}

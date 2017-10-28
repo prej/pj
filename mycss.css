@@ -1,0 +1,27 @@
+ h1{
+    text-shadow: 0 0 9px #fff000;
+    font-family: Georgia;
+    font-weight: bold;
+    text-align: center;
+      /*margin: 12px 12px 12px 12px;*/
+  padding: 12px 12px 12px 12px;
+  color:black;
+    }
+  h2{
+    text-align: center;
+    
+    font-style: oblique;
+    
+    }
+body
+{
+  color:#2f064c;
+  font-family:cursive;
+  background-image:url('http://sridevi.biz/uploads/3/5/5/2/35520686/1850466_orig.jpg');
+  background-repeat:no-repeat;
+  background-position:center;
+  background-color:black;
+  margin-top:10em;
+  margin-left:17em;
+  margin-right:17em;
+}
