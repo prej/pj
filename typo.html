@@ -1,0 +1,36 @@
+
+<html>
+	<head>	
+		<style>
+			.bar{
+			  width:100px;
+			  background-color:black;
+			  border:red solid;
+			}
+			.bar > div{
+			  height:12px;
+			  background:blue;
+			  width:0%
+			}
+		</style>
+		<script src="blahh1.js"></script>
+		<meta charset="UTF-8">
+		<title></title>
+	
+	</head>
+	<body onload="init();">
+		<button type="button" onclick="myfun();">start</button>
+		<div id="space"></div>
+
+		<input type="text" id="ansInput" oninput="answer();" onfocus="this.value=''" value="write here and click enter">
+		<div id="ansSpace"></div>
+		<div class="bar">
+    		<div></div>
+  		</div>
+
+		<div id="ansSpace"></div>
+		<div class="bartm">
+			<div></div>
+		</div>
+	</body>
+</html>
