@@ -1,0 +1,50 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="blahcss.css">
+ <script src="https://d3js.org/d3.v3.min.js"></script>
+
+<script src="https://mauriciopoppe.github.io/function-plot/js/function-plot.js"></script>
+ <script src="blahh.js"></script>
+
+</head>
+<body onload="myfun();">
+<section id="graph">
+<label for="xmin">xMin</label>
+<input type="number" id="xmin"><br>
+<label for="xmax">xMax</label>
+<input type="number" id="xmax"><br>
+<label for="ymin">yMin</label>
+<input type="number" id="ymin"><br>
+<label for="ymax">yMax</label>
+<input type="number" id="ymax"><br>
+<label type="text" for="fun">Function</label>
+<input id="fun"><br>
+<button type="button" onclick="myfun();">submit</button>
+ 
+<div id="myFunction"></div>
+</section>
+
+<section id="table">
+<label for="name">NAME</label>
+<input type="text" id="name"><br>
+<label for="info">DETAILS</label>
+<input type="number" id="info"><br>
+
+<button type="button" onclick="myfun1();">submit</button>
+ 
+<table>
+	<thead>
+		<tr>
+		<th>NAME</th>
+		<th>DETAILS</th>
+		</tr>
+	</thead>
+	<tbody id="addcontent">
+	</tbody>
+</table>
+</section>  
+
+</body>
+
+</html>
